@@ -39,7 +39,7 @@ class DialUIView : UIView {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         rotation -= frame.size.half.CGPoint.moveAngle(point: touches.first!.location(in: self), previousPoint: touches.first!.previousLocation(in: self))
-        background?.transform = CGAffineTransform (rotationAngle: CGFloat(rotation))
+        background?.transform = CGAffineTransform (rotationAngle: rotation)
         (delegate)?.dialUIViewMoved(self)
     }
 }
