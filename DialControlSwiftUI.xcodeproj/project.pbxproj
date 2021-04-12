@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2D6F99262420A1005B022B /* DialControlSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6F98262420A1005B022B /* DialControlSwiftUIApp.swift */; };
+		FA2D6F9B262420A1005B022B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6F9A262420A1005B022B /* ContentView.swift */; };
+		FA2D6F9D262420A3005B022B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D6F9C262420A3005B022B /* Assets.xcassets */; };
+		FA2D6FA0262420A3005B022B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2D6F9F262420A3005B022B /* Preview Assets.xcassets */; };
+		FA2D6FAC2624210F005B022B /* CGSize+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FA92624210F005B022B /* CGSize+ext.swift */; };
+		FA2D6FAD2624210F005B022B /* CGPoint+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FAA2624210F005B022B /* CGPoint+ext.swift */; };
+		FA2D6FAE2624210F005B022B /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FAB2624210F005B022B /* UIView+ext.swift */; };
+		FA2D6FB1262428D0005B022B /* CGFloat+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FB0262428D0005B022B /* CGFloat+ext.swift */; };
+		FA2D6FB526242D04005B022B /* DialUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FB426242D04005B022B /* DialUIView.swift */; };
+		FA2D6FB926242D5F005B022B /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D6FB826242D5F005B022B /* DialView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA2D6F95262420A1005B022B /* DialControlSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialControlSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2D6F98262420A1005B022B /* DialControlSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialControlSwiftUIApp.swift; sourceTree = "<group>"; };
+		FA2D6F9A262420A1005B022B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA2D6F9C262420A3005B022B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2D6F9F262420A3005B022B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2D6FA1262420A3005B022B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2D6FA92624210F005B022B /* CGSize+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+ext.swift"; sourceTree = "<group>"; };
+		FA2D6FAA2624210F005B022B /* CGPoint+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+ext.swift"; sourceTree = "<group>"; };
+		FA2D6FAB2624210F005B022B /* UIView+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		FA2D6FB0262428D0005B022B /* CGFloat+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+ext.swift"; sourceTree = "<group>"; };
+		FA2D6FB426242D04005B022B /* DialUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialUIView.swift; sourceTree = "<group>"; };
+		FA2D6FB826242D5F005B022B /* DialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2D6F92262420A1005B022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2D6F8C262420A1005B022B = {
+			isa = PBXGroup;
+			children = (
+				FA2D6F97262420A1005B022B /* DialControlSwiftUI */,
+				FA2D6F96262420A1005B022B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2D6F96262420A1005B022B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D6F95262420A1005B022B /* DialControlSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2D6F97262420A1005B022B /* DialControlSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D6F9C262420A3005B022B /* Assets.xcassets */,
+				FA2D6F9A262420A1005B022B /* ContentView.swift */,
+				FA2D6F98262420A1005B022B /* DialControlSwiftUIApp.swift */,
+				FA2D6FB426242D04005B022B /* DialUIView.swift */,
+				FA2D6FB826242D5F005B022B /* DialView.swift */,
+				FA2D6FA82624210F005B022B /* extensions */,
+				FA2D6FA1262420A3005B022B /* Info.plist */,
+				FA2D6F9E262420A3005B022B /* Preview Content */,
+			);
+			path = DialControlSwiftUI;
+			sourceTree = "<group>";
+		};
+		FA2D6F9E262420A3005B022B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D6F9F262420A3005B022B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2D6FA82624210F005B022B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA2D6FB0262428D0005B022B /* CGFloat+ext.swift */,
+				FA2D6FAA2624210F005B022B /* CGPoint+ext.swift */,
+				FA2D6FA92624210F005B022B /* CGSize+ext.swift */,
+				FA2D6FAB2624210F005B022B /* UIView+ext.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2D6F94262420A1005B022B /* DialControlSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D6FA4262420A3005B022B /* Build configuration list for PBXNativeTarget "DialControlSwiftUI" */;
+			buildPhases = (
+				FA2D6F91262420A1005B022B /* Sources */,
+				FA2D6F92262420A1005B022B /* Frameworks */,
+				FA2D6F93262420A1005B022B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialControlSwiftUI;
+			productName = DialControlSwiftUI;
+			productReference = FA2D6F95262420A1005B022B /* DialControlSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2D6F8D262420A1005B022B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA2D6F94262420A1005B022B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FA2D6F90262420A1005B022B /* Build configuration list for PBXProject "DialControlSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2D6F8C262420A1005B022B;
+			productRefGroup = FA2D6F96262420A1005B022B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2D6F94262420A1005B022B /* DialControlSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2D6F93262420A1005B022B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D6FA0262420A3005B022B /* Preview Assets.xcassets in Resources */,
+				FA2D6F9D262420A3005B022B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2D6F91262420A1005B022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D6FB1262428D0005B022B /* CGFloat+ext.swift in Sources */,
+				FA2D6FAD2624210F005B022B /* CGPoint+ext.swift in Sources */,
+				FA2D6F9B262420A1005B022B /* ContentView.swift in Sources */,
+				FA2D6F99262420A1005B022B /* DialControlSwiftUIApp.swift in Sources */,
+				FA2D6FAC2624210F005B022B /* CGSize+ext.swift in Sources */,
+				FA2D6FB526242D04005B022B /* DialUIView.swift in Sources */,
+				FA2D6FB926242D5F005B022B /* DialView.swift in Sources */,
+				FA2D6FAE2624210F005B022B /* UIView+ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA2D6FA2262420A3005B022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2D6FA3262420A3005B022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2D6FA5262420A3005B022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DialControlSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = V26BL3AZ8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DialControlSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pcostello.DialControlSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2D6FA6262420A3005B022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DialControlSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = V26BL3AZ8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DialControlSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pcostello.DialControlSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2D6F90262420A1005B022B /* Build configuration list for PBXProject "DialControlSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D6FA2262420A3005B022B /* Debug */,
+				FA2D6FA3262420A3005B022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2D6FA4262420A3005B022B /* Build configuration list for PBXNativeTarget "DialControlSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D6FA5262420A3005B022B /* Debug */,
+				FA2D6FA6262420A3005B022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2D6F8D262420A1005B022B /* Project object */;
+}
